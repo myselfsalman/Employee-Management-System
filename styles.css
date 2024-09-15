@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #343a40;
+    padding: 20px;
+    color: #fff;
+    float: left;
+    height: 510px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.sidebar ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.sidebar ul li a:hover {
+    color: #007bff;
+}
+
+/* Content */
+.content {
+    margin-left: 240px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 12px;
+    width: 22%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Remove underline from sorting links */
+table th a {
+    text-decoration: none;
+    color: inherit; /* Keeps the text color the same as the surrounding text */
+}
+
+/* Sorting icon styles */
+.sort-icon {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Table Cell */
+table td {
+    border: 1px solid #ddd;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table td img {
+    border-radius: 5px;
+}
+
+/* Action Buttons (Icons) */
+table td a img {
+    cursor: pointer;
+}
+
+table td a img:hover {
+    opacity: 0.8;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-controls button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-controls button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.text-light:hover {
+    color: #f0f0f0;
+}
