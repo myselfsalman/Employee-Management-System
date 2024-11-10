@@ -1,5 +1,5 @@
 # Assalamualaikum, Everyone
-# Employee-Management-System-for-Wafi-Solutions-by-Mohammad-Salman
+# Employee-Management-System-by-Mohammad-Salman
 # Homepage
 ![image](https://github.com/user-attachments/assets/dc58984b-0e54-480d-ab2e-66a2d53d3287)
 ![image](https://github.com/user-attachments/assets/51fbb7c9-a6af-4307-bb4d-f3d47b062c96)
